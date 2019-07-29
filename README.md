@@ -1,8 +1,8 @@
 # 必要なもの
 
-- nodejs nodebrew などで install してください
-- yarn `npm install -g yarn`で入ります
-- parcel `npm install -g parcel-bundler`で入ります
+- nodejs - nodebrew などで install してください
+- yarn - `npm install -g yarn`で入ります
+- parcel - `npm install -g parcel-bundler`で入ります
 
 # 使い方
 
@@ -11,7 +11,11 @@ $ yarn install
 ```
 
 ```
-$ parcel ./index.html
+$ parcel ./index.html --open
+
+or
+
+$ make run
 ```
 
 この２つを叩けば動きます
